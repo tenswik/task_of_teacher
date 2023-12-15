@@ -1,0 +1,40 @@
+
+
+def square():
+    side = int(input("введите сторону квадрата: "))
+    print(side ** 2)
+
+def rectangle():
+    side_1 = int(input("введите первую сторону: "))
+    side_2 = int(input("введите вторую сторону: "))
+    print(side_2 * side_1)
+
+def circle():
+    radius = int(input("введите радиус: "))
+    print((radius ** 2) * 3.14)
+
+def trapezoid():
+    side_1 = int(input("введите первое осноание трапеции: "))
+    side_2 = int(input("введите второе осноание трапеции: "))
+    high = int(input("введите высоту трапеции: "))
+    print((side_2 + side_1) * high / 2)
+
+def parallelepiped():
+    high = int(input("введите высоту параллепипеда: "))
+    dlina = int(input("введите длину параллепипеда: "))
+    shirina = int(input("введите ширину параллепипеда: "))
+    print(high * dlina * shirina)
+
+def rombus():
+    diagonal_1 = int(input("введите первую диагональ: "))
+    diagonal_2 = int(input("введите вторую диагональ:"))
+    print(diagonal_1 * diagonal_2 * 0.5)
+
+def cube():
+    side = int(input(" введите ребро куба: "))
+    print((side ** 2) * 6)
+
+def triangle():
+    side = int(input("введите сторону треугольника, к которому приведена высота: "))
+    high = int(input("введите высоту: "))
+    print((side * high) / 2)
