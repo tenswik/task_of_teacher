@@ -1,0 +1,21 @@
+
+def display_menu():
+    print("1. площадь квадрата")
+    print("2. площадь прямоугольника")
+    print("3. площадь круга")
+    print("4. площадь трапеции")
+    print("5. площадь параллепипеда")
+    print("6. площадь ромба")
+    print("7. площадь куба")
+    print("8. треугольник")
+
+# def display_all_shoes(shoe_inventory):
+#     print("\nОбувной инвентарь:")
+#     for i, shoe in enumerate(shoe_inventory):
+#         print(f"{i+1}. {shoe['brand']} {shoe['model']}, Размер: {shoe['size']}")
+
+def display_success(message):
+    print(f"\nУспешно: {message}")
+
+def display_error(message):
+    print(f"\nОшибка: {message}")
