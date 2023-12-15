@@ -1,0 +1,38 @@
+
+from model import square, rectangle, circle, trapezoid, parallelepiped, rombus, cube, triangle
+from view import display_menu,  display_success, display_error
+
+def main():
+    while True:
+        display_menu()
+        choice = input("\nВыберите действие (1-8): ")
+
+        if choice == "1":
+            square()
+            display_success("Площадь квадрата вычислена")
+        elif choice == "2":
+            rectangle()
+            display_success("Площадь прямоугольника вычислена")
+        elif choice == "3":
+            circle()
+            display_success("Площадь круга вычислена")
+        elif choice == "4":
+            trapezoid()
+            display_success("Площадь трапеции вычислена")
+        elif choice == "5":
+            parallelepiped()
+            display_success("Площадь параллепипеда вычислена")
+        elif choice == "6":
+            rombus()
+            display_success("Площадь ромба вычислена")
+        elif choice == "7":
+            cube()
+            display_success("Площадь куба вычислена")
+        elif choice == "8":
+            triangle()
+            display_success("Площадь треугольника вычислена")
+        else:
+            display_error("Неверный выбор. Пожалуйста, выберите от 1 до 8.")
+
+if __name__ == "__main__":
+    main()
